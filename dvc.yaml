@@ -1,0 +1,5 @@
+stages:
+  split:
+    cmd: '" -d" src/data/DVC_split.py -d data/raw/raw.csv -o data/processed/X_train.csv
+      -o data/processed/X_test.csv -o data/processed/y_train.csv -o data/processed/y_test.csv
+      python src/data/DVC_split.py'
